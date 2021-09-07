@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/ic_map"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/ic_message"
+            android:title="Wiadomości" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_users"
+            android:title="Użytkownicy" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="Inne">
+            <menu>
+                <item
+                    android:id="@+id/item4"
+                    android:title="Kontakt" />
+                <item
+                    android:id="@+id/item5"
+                    android:title="Wyloguj się" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
